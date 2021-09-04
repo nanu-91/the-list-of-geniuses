@@ -54,8 +54,14 @@ class Page0 extends React.Component {
         <Title onClick={() => this.showClick()}>Summary</Title>
         {
           show
-          ? <Desc>Nouns are an experimental attempt to improve the formation of on-chain avatar communities. While projects such as Cryptopunks have attempted to bootstrap digital community and identity, Nouns attempt to bootstrap identity, community, governance and a treasury that can be used by the community for the creation of long-term value.
-          Learn more about on-chain nouns below, or make some off-chain nouns using nouns playground.</Desc>
+          ? <Desc>
+              <ul>
+                <li>1 artwork of a genius is added to the collection every two week.</li>
+                <li>100% of the artwork’s proceeds goes to the community wallet.</li>
+                <li>The community votes on each next genius.</li>
+                <li>Artworks stored on chain</li>
+              </ul>
+          </Desc>
           : <Desc></Desc>
         }
       </Wrapper>

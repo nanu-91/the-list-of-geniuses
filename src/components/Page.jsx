@@ -51,11 +51,17 @@ class Page extends React.Component {
     const { show } = this.state;
     return (
       <Wrapper>
-        <Title onClick={() => this.showClick()}>WTF?</Title>
+        <Title onClick={() => this.showClick()}>Square Pegs</Title>
         {
           show
-          ? <Desc>Nouns are an experimental attempt to improve the formation of on-chain avatar communities. While projects such as Cryptopunks have attempted to bootstrap digital community and identity, Nouns attempt to bootstrap identity, community, governance and a treasury that can be used by the community for the creation of long-term value.
-          Learn more about on-chain nouns below, or make some off-chain nouns using nouns playground.</Desc>
+          ? <Desc>NFTs are sold today similarly to how they were historically sold. A rich patron funds or buys an artist’s work. In the last four years, key innovations have already taken place which could disrupt this. 
+
+          Digital art today can have more uses than decoration. Artwork can come with voting rights to an ongoing project’s direction. Proceeds from artworks can be stored in a community bank as funds for a long term vision. And works of art stored on the blockchain are immune from degradation, destruction, and censorship.
+          
+          Our project combines all these features to curate the most influential people in the past, present, and future. The contributions of people who improve human civilization’s well being should be recognized and encouraged. Their artworks will be stored on the Ethereum network which ties the survivability of the artwork to the second largest blockchain.
+          
+          The collection’s use case is a marketplace that quantifies human inspiration. What that means is today, you can buy a company’s stock on the expectation it will be more profitable in the future. Imagine buying a stock of a historical figure on the expectation they will be more inspirational in the future. Symbols of inspiration are not new concepts. Popular examples include baseball cards
+          </Desc>
           : <Desc></Desc>
         }
       </Wrapper>
