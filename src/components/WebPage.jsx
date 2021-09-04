@@ -37,7 +37,7 @@ class WebPage extends React.Component {
   render() {
     return (
       <PageWrapper>
-        <HeaderWrapper><ImgWrapper src={famous} />The List by King Alexander</HeaderWrapper>
+        <HeaderWrapper><ImgWrapper src={famous} />Square Pegs</HeaderWrapper>
         <Page />
         <Page0 />
       </PageWrapper>

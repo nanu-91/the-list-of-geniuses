@@ -51,7 +51,7 @@ class Page extends React.Component {
     const { show } = this.state;
     return (
       <Wrapper>
-        <Title onClick={() => this.showClick()}>Square Pegs</Title>
+        <Title onClick={() => this.showClick()}>WTF?</Title>
         {
           show
           ? <Desc>NFTs are sold today similarly to how they were historically sold. A rich patron funds or buys an artist’s work. In the last four years, key innovations have already taken place which could disrupt this. 
